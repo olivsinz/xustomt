@@ -1,0 +1,8 @@
+{
+  "general": {
+    "404": {
+      "title": "Introuvable",
+      "subtext_html": "La page que vous cherchez est introuvable."
+    }
+  }
+}

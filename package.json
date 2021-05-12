@@ -1,0 +1,28 @@
+{
+  "name": "xustomt",
+  "version": "1.0.0",
+  "description": "Shopify Custom Theme Based On Tailwind CSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build src/css/application.css -o assets/application.css.liquid && theme deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0l1v3r5/xustomt.git"
+  },
+  "keywords": [
+    "shopify",
+    "theme"
+  ],
+  "author": "0l1v3r5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0l1v3r5/xustomt/issues"
+  },
+  "homepage": "https://github.com/0l1v3r5/xustomt#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  }
+}
